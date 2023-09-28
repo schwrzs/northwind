@@ -50,5 +50,6 @@ getProductsByCategory(categoryId:number){
   this.toastrService.success("Added to chart",product.productName)
   this.cartService.addToCart(product);
   }
+  
 
 }
